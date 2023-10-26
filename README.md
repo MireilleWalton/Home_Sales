@@ -1,6 +1,8 @@
 # Home_Sales
 
-This challenge uses SparkSQL to determine key metrics about home sales data and utilises temporary views, partitions, caching and uncaching a temporary table, and verifying that the table has been uncached.  In addition time trials are run on the processing time for each of the views.  Metric outcomes and time trial results are included below. 
+This challenge uses SparkSQL to determine key metrics about home sales data and utilises temporary views, partitions, caching and uncaching a temporary table, and verifying that the table has been uncached.  In addition time trials are run on the processing time for each of the views.  Metric outcomes and time trial results are included below.
+
+Please refer to file "Home_Sales_starter_code.ipynb" for completed code file.  
 
 #### Average price for a four bedroom house sold in each year rounded to two decimal places
 ![image](https://github.com/VioletRogue12/Home_Sales/assets/130148039/8945a4fd-36b8-4bef-b8b2-ec5e08ce600c)
