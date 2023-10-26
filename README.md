@@ -19,17 +19,18 @@ This challenge uses SparkSQL to determine key metrics about home sales data and 
 
 
 #### Using cached data, run the previous query that filters view ratings with average price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime (see below).
-![image](https://github.com/VioletRogue12/Home_Sales/assets/130148039/5b2f0d55-fce5-48be-9570-a563654e86bf)
+![image](https://github.com/VioletRogue12/Home_Sales/assets/130148039/c318ddd9-4ad7-42a9-97c3-3174180c0ad0)
 
 
 #### Partition by 'date_built' on formatted parquet home_sales data. Run the same query that filters view ratings with average price of greater than or eqaul to $350,000 with the parquet DataFrame. Round your average to two decimal places. Compare the run time to that of the cached version (see below). 
-![image](https://github.com/VioletRogue12/Home_Sales/assets/130148039/5b2f0d55-fce5-48be-9570-a563654e86bf)
+![image](https://github.com/VioletRogue12/Home_Sales/assets/130148039/751f953c-f4d0-4830-8f3c-b8956d2c4b17)
+
 
 
 ### Comparison of run times
 |Uncached|Cached|Partitioned (parquet|
 |--------|------|--------------------|
-|0.36sec |0.21sec |0.26sec|
+|1.68sec |0.72sec |0.50sec|
 
-In this instance, the cached data performed with the fastest processing time.  
+The time trials demonstrate that the partitioned data performed with the fastest processing time.  
 
